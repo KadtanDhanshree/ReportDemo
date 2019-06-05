@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SMOKE]">
+  <test thread-count="5" name="verify addition and multiplication of 2 numbers(failed)">
+    <parameter name="a1" value="12"/>
+    <parameter name="a2" value="12"/>
+    <parameter name="m1" value="12"/>
+    <parameter name="m2" value="12"/>
+    <classes>
+      <class name="Temp.MathB">
+        <methods>
+          <include name="multiplication" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Temp.MathB -->
+    </classes>
+  </test> <!-- verify addition and multiplication of 2 numbers(failed) -->
+</suite> <!-- Failed suite [SMOKE] -->

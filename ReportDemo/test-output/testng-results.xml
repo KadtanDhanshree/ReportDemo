@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SMOKE" duration-ms="77333" started-at="2019-02-27T06:13:07Z" finished-at="2019-02-27T06:14:24Z">
+    <groups>
+    </groups>
+    <test name="Login functionality for valid uname and pass" duration-ms="77333" started-at="2019-02-27T06:13:07Z" finished-at="2019-02-27T06:14:24Z">
+      <class name="Temp.Temp_Login">
+        <test-method status="PASS" signature="user_opens_the_browser(java.lang.String)[pri:0, instance:Temp.Temp_Login@19627bc]" name="user_opens_the_browser" duration-ms="69049" started-at="2019-02-27T06:13:07Z" finished-at="2019-02-27T06:14:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_opens_the_browser -->
+        <test-method status="PASS" signature="user_enter_the_url(java.lang.String)[pri:0, instance:Temp.Temp_Login@19627bc]" name="user_enter_the_url" duration-ms="2004" started-at="2019-02-27T06:14:16Z" finished-at="2019-02-27T06:14:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.facebook.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_enter_the_url -->
+        <test-method status="PASS" signature="user_is_on_the_application_login_page()[pri:0, instance:Temp.Temp_Login@19627bc]" name="user_is_on_the_application_login_page" duration-ms="2100" started-at="2019-02-27T06:14:18Z" finished-at="2019-02-27T06:14:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_is_on_the_application_login_page -->
+        <test-method status="PASS" signature="user_enters_as_username(java.lang.String)[pri:0, instance:Temp.Temp_Login@19627bc]" name="user_enters_as_username" duration-ms="1003" started-at="2019-02-27T06:14:20Z" finished-at="2019-02-27T06:14:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kadtand@yahoo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_enters_as_username -->
+        <test-method status="PASS" signature="user_enters_as_password(java.lang.String)[pri:0, instance:Temp.Temp_Login@19627bc]" name="user_enters_as_password" duration-ms="1003" started-at="2019-02-27T06:14:21Z" finished-at="2019-02-27T06:14:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mango@411]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_enters_as_password -->
+        <test-method status="PASS" signature="user_clicks_on_login_button()[pri:0, instance:Temp.Temp_Login@19627bc]" name="user_clicks_on_login_button" duration-ms="2003" started-at="2019-02-27T06:14:22Z" finished-at="2019-02-27T06:14:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_clicks_on_login_button -->
+      </class> <!-- Temp.Temp_Login -->
+    </test> <!-- Login functionality for valid uname and pass -->
+  </suite> <!-- SMOKE -->
+</testng-results>

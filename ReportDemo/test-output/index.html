@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-SMOKE">
+              <span class="suite-name border-passed">SMOKE</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-SMOKE">
+                    <span>E:\Automation testing\Example_reports\ReportDemo\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-SMOKE">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-SMOKE">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-SMOKE">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-SMOKE">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-SMOKE">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-SMOKE">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SMOKE" class="hide-methods passed suite-SMOKE"> (hide)</a> <!-- hide-methods passed suite-SMOKE -->
+                      <a href="#" panel-name="suite-SMOKE" class="show-methods passed suite-SMOKE"> (show)</a> <!-- show-methods passed suite-SMOKE -->
+                    </span>
+                    <div class="method-list-content passed suite-SMOKE">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="Temp.Temp_Login" hash-for-method="user_clicks_on_login_button">user_clicks_on_login_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="Temp.Temp_Login" hash-for-method="user_enter_the_url(https://www.facebook.com/)">user_enter_the_url(https://www.facebook.com/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="Temp.Temp_Login" hash-for-method="user_enters_as_password(mango@411)">user_enters_as_password(mango@411)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="Temp.Temp_Login" hash-for-method="user_enters_as_username(kadtand@yahoo.com)">user_enters_as_username(kadtand@yahoo.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="Temp.Temp_Login" hash-for-method="user_is_on_the_application_login_page">user_is_on_the_application_login_page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SMOKE" title="Temp.Temp_Login" hash-for-method="user_opens_the_browser(firefox)">user_opens_the_browser(firefox)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SMOKE -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SMOKE" class="panel SMOKE">
+          <div class="suite-SMOKE-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Temp.Temp_Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_clicks_on_login_button">
+                  </a> <!-- user_clicks_on_login_button -->
+                  <span class="method-name">user_clicks_on_login_button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_enter_the_url(https://www.facebook.com/)">
+                  </a> <!-- user_enter_the_url(https://www.facebook.com/) -->
+                  <span class="method-name">user_enter_the_url</span>
+                  <span class="parameters">(https://www.facebook.com/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_enters_as_password(mango@411)">
+                  </a> <!-- user_enters_as_password(mango@411) -->
+                  <span class="method-name">user_enters_as_password</span>
+                  <span class="parameters">(mango@411)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_enters_as_username(kadtand@yahoo.com)">
+                  </a> <!-- user_enters_as_username(kadtand@yahoo.com) -->
+                  <span class="method-name">user_enters_as_username</span>
+                  <span class="parameters">(kadtand@yahoo.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_is_on_the_application_login_page">
+                  </a> <!-- user_is_on_the_application_login_page -->
+                  <span class="method-name">user_is_on_the_application_login_page</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="user_opens_the_browser(firefox)">
+                  </a> <!-- user_opens_the_browser(firefox) -->
+                  <span class="method-name">user_opens_the_browser</span>
+                  <span class="parameters">(firefox)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SMOKE-class-passed -->
+        </div> <!-- panel SMOKE -->
+        <div panel-name="test-xml-SMOKE" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Automation testing\Example_reports\ReportDemo\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;SMOKE&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Login functionality for valid uname and pass&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;mango@411&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;https://www.facebook.com/&quot;/&gt;
+    &lt;parameter name=&quot;Browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;kadtand@yahoo.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Temp.Temp_Login&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;user_opens_the_browser&quot;/&gt;
+          &lt;include name=&quot;user_enter_the_url&quot;/&gt;
+          &lt;include name=&quot;user_is_on_the_application_login_page&quot;/&gt;
+          &lt;include name=&quot;user_enters_as_username&quot;/&gt;
+          &lt;include name=&quot;user_enters_as_password&quot;/&gt;
+          &lt;include name=&quot;user_clicks_on_login_button&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- Temp.Temp_Login --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login functionality for valid uname and pass --&gt;
+&lt;/suite&gt; &lt;!-- SMOKE --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SMOKE" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SMOKE</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login functionality for valid uname and pass (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SMOKE" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SMOKE</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SMOKE" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SMOKE</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SMOKE');
+function tableData_SMOKE() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'user_opens_the_browser')
+data.setCell(0, 2, 'Temp.Temp_Login')
+data.setCell(0, 3, 69049);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'user_is_on_the_application_login_page')
+data.setCell(1, 2, 'Temp.Temp_Login')
+data.setCell(1, 3, 2100);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'user_enter_the_url')
+data.setCell(2, 2, 'Temp.Temp_Login')
+data.setCell(2, 3, 2004);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'user_clicks_on_login_button')
+data.setCell(3, 2, 'Temp.Temp_Login')
+data.setCell(3, 3, 2003);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'user_enters_as_password')
+data.setCell(4, 2, 'Temp.Temp_Login')
+data.setCell(4, 3, 1003);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'user_enters_as_username')
+data.setCell(5, 2, 'Temp.Temp_Login')
+data.setCell(5, 3, 1003);
+window.suiteTableData['SMOKE']= { tableData: data, tableDiv: 'times-div-SMOKE'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-SMOKE">
+              </div> <!-- times-div-SMOKE -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SMOKE" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SMOKE</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SMOKE" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SMOKE" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Temp.Temp_Login</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">user_opens_the_browser(firefox)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_enter_the_url(https://www.facebook.com/)</span>
+                <span class="method-start">69081 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_is_on_the_application_login_page</span>
+                <span class="method-start">71089 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_enters_as_username(kadtand@yahoo.com)</span>
+                <span class="method-start">73192 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_enters_as_password(mango@411)</span>
+                <span class="method-start">74198 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">user_clicks_on_login_button</span>
+                <span class="method-start">75204 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

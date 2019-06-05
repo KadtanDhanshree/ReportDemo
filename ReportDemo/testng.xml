@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SMOKE">
+  <test name="Login functionality for valid uname and pass">
+  
+   <parameter name="Browser" value="firefox"></parameter>
+   <parameter name="url" value="https://www.facebook.com/"></parameter>
+   <parameter name="username" value="kadtand@yahoo.com"></parameter>
+   <parameter name="password" value="mango@411"></parameter>
+   
+    <classes>      	
+	<class name="Temp.Temp_Login">
+  	<methods>
+  		<include name="user_opens_the_browser"></include>
+  		<include name="user_enter_the_url"></include>
+  		<include name="user_is_on_the_application_login_page"></include>
+  		<include name="user_enters_as_username"></include>
+   		<include name="user_enters_as_password"></include>
+  		<include name="user_clicks_on_login_button"></include>
+  		
+  	</methods>
+  </class>
+
+    </classes>
+  </test> <!-- Test -->  
+</suite> <!-- SMOKE -->
